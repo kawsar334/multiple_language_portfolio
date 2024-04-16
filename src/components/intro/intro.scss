@@ -1,0 +1,68 @@
+
+@import "../../global.scss";
+
+.intro{
+    width: 100%;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12, 3, 51, 0.3));
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .intromain{
+        margin: 0 auto;
+        width: 40%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+        color: lightgray;
+        h1{
+            font-size:35px;
+
+        }
+        h2{
+            font-size: 40px;
+        }
+       
+
+        .type{
+            font-size:25px;
+            color: $crimson;
+            color: #FF5733;
+            text-transform: capitalize;
+            text-shadow: 1px 1px 1px white;
+        }
+        p{
+            font-size: 20px;
+            line-height: 22px;
+            height: max-content;
+            overflow: hidden;
+            padding: 10px 0px ;
+        }
+        @include mobile{
+            background-color: transparent;
+            width: 70%;
+        }
+        p{
+            text-align: justify;
+        }
+        a{
+            background-color: $maincolor;
+            width: max-content;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: $white;
+            i{
+                color: rebeccapurple;
+            }
+        }
+
+    }
+}

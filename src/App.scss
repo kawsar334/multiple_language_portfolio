@@ -1,0 +1,19 @@
+
+
+.app{
+  overflow-x: hidden;
+  background-color: #0f0f0f;
+  // background-color: #353333;
+  overflow-x: hidden;
+  position: relative;
+ 
+  .container{ 
+    
+    >*{
+        width: 100vw;
+        height: 100vh !important;
+        scroll-snap-align: start;
+       
+    }
+  }
+}

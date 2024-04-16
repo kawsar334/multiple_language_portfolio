@@ -1,0 +1,67 @@
+@import "../../global.scss";
+
+.skills{
+    .skillwrapper{
+        width: 70%;
+        height: 80%;
+        margin: 10px auto;
+        @include mobile {
+                height: max-content;
+                width: 90%;
+            }
+        .skilltop{
+            display: flex;
+            flex-direction: column;
+            margin-top: 50px;
+            color: $lightgray;
+        }
+        .skillbottom{
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 5px;
+            flex-wrap: wrap;
+            overflow: hidden;
+            @include mobile{
+                gap: 10px;
+            }
+            
+
+            .skillitem{
+                width: 23%;
+                height: 120px;
+                background-color:$intro;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                cursor: pointer;
+                box-shadow: 0 0 5px $maincolor;
+                border-radius: 5px;
+                transition: all 0.5s ease;
+                @include mobile{
+                    width: 47%;
+                    height: 100px;
+                }
+                &:hover{
+                    transform: scale(1.1);
+                }
+                img{
+                    width: 70px;
+                    height: 70px;
+                    object-fit: cover;
+                    @include mobile{
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+                span{
+                    color: $white;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+
+
+@import "../../global.scss";
+
+.menu{
+    position: fixed;
+    right: 0;
+    top:0px;
+    transform: translateX(250px);
+    width: 250px;
+    background-color: black;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    transition:  1s all ease;
+    z-index: 998;
+    gap: 20px;
+    .fa-xmark{
+        position: absolute;
+        color: $white;
+        left: 20px;
+        top: 20px;
+        font-size: 30px;
+        cursor: pointer;
+        
+    }
+    img{
+        margin-top: 70px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: rgba(255,255,255,0.1);
+       object-fit: cover;
+    }
+    &.activemenu{
+        transform: translateX(-0px);
+        z-index: 999;
+
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        li{
+            overflow: hidden;
+            a{
+                font-size: 25px;
+                color: $white;
+                text-transform: capitalize !important;
+            }
+        }
+    }
+}

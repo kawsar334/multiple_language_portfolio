@@ -1,0 +1,60 @@
+
+@import "../../global.scss";
+.contact{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    .contactwrapper{
+        width: 50%;
+        margin: 20px auto;
+        @include mobile{
+            width: 70%;
+        }
+        .contacttop{
+            color: $white;
+            h1{
+                font-size: 30px;
+
+            }
+            p{
+                margin: 10px 0px;
+            }
+        }
+        .contactbottom{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            textarea{
+                outline: none;
+            }
+
+            input{
+                padding:10px 0px;
+                outline: none;
+            }
+          
+            button{
+                padding: 5px 10px;
+                border: 1px solid $lightgray;
+                width: max-content;
+                color: $lightgray;
+                cursor: pointer;
+                background-color: $maincolor;
+                border-radius: 5px;
+                &:hover{
+                    background-color: transparent;
+
+                }
+            }
+
+            .welcommessage{
+                color: white;
+                background-color: $maincolor;
+                padding: 5px 10px;
+                text-transform: capitalize;
+
+
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+
+
+$maincolor:rgba(255, 255, 255, 0.1);
+$white:#fff;
+$width:778px;
+$lightgray:lightgray;
+$crimson:crimson;
+$intro:rgb(26, 25, 31);
+$yellow: #FF5733;
+
+
+
+@mixin mobile{
+  @media (max-width:#{$width}) {
+      @content
+  }
+}

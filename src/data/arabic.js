@@ -1,0 +1,57 @@
+export const arabictitle = "thi is العربي title ";
+
+
+// { name: 'home', id: "#intro", },
+// { name: 'projects', id: "#projects", },
+// { name: 'About me', id: "#about", },
+// { name: 'skills', id: "#skills", },
+// { name: 'contact', id: "#contact", },
+export const ar = {
+    logoText: 'کوثر',
+    resume: 'سيرة ذاتية',
+    navlinks: [
+        { name: 'الرئيسية',id:"#intro" },
+        { name: 'المشاريع',id:"#projects" },
+        { name: 'عني',id:"#about" },
+        { name: 'المهارات',id:"#skills" },
+        { name: 'اتصل بي',id:"#contact" },
+    ],
+    text1: "مرحبًا أنا",
+    text2: 'کوثر فروز',
+    text3: "أنا مطور ويب Full Stack",
+    text4: "React.js و Node.js",
+    text5: "قاعدة بيانات Mongo",
+    desc: "مطور ويب متحمس ومبادر. لكسب الثقة والشهرة باستخدام قدراتي في مجال تطوير الويب والتعبير عن مهاراتي الإبداعية المبتكرة لنمو الذات والشركة. أحب دائمًا تعلم أشياء جديدة ولدي تجربة في أشياء جديدة.",
+    vieworksLink: 'عرض الأعمال',
+    aboutMeHeader1: 'عني',
+    aboutDesc1: "أنا مطور ويب MERN-Stack. أعمل مع React و Node.js و MongoDB. لدي أيضًا خبرة في تطوير مواقع الويب الثابتة والديناميكية باستخدام HTML5 و CSS3 و JavaScript (ES6). أنا سريع التعلم. أؤمن بالعمل الشاق والكفاءة. أركز دائمًا على تعلم التكنولوجيا الجديدة. هدفي هو أن أصبح مطور ويب محترف على مستوى عالمي. هذه بعض التكنولوجيات التي عملت معها مؤخرًا",
+    aboutHeader2: "واجهة المستخدم",
+    aboutDesc2: "HTML5، css3، Sass، JavaScript (ES6)، React.js، Bootstrap، React-router-dom، سياق التطبيقات",
+    aboutHeader3: "الخلفية",
+    aboutDesc3: "Node.js، Express.js، MongoDB، jwt، bcrypt",
+    aboutHeader4: "الأدوات",
+    aboutDesc4: "Vs Code، git، Npm و Yearn، Netlify",
+    projectHeader: "المشاريع",
+    projectlinks: [
+        { type: "واجهة المستخدم" },
+        { type: "Fullstack" },
+        { type: "رياكت نايتف" }
+    ],
+    seeMoreprojects: "عرض المزيد من المشاريع...",
+    ExperienceHeader: "الخبرة",
+    ExperienceDesc: "هذه التكنولوجيات التي عملت معها.",
+    expItems: [],
+    contactHeader: "اتصل",
+    contactDesc: "أرسل النموذج أدناه أو أرسل لي بريدًا إلكترونيًا - myself@gmail.com",
+    contacName: "الاسم",
+    contactEmail: "البريد الإلكتروني",
+    contactMessage: "اكتب رسالتك",
+    sendBtn: "إرسال",
+    footerLinks: [
+        { id: 1, link: '#intro', name: "الرئيسية" },
+        { id: 1, link: '#skills', name: "المهارات" },
+        { id: 1, link: '#projects', name: "المشاريع" },
+        { id: 1, link: '#contact', name: "اتصل بي" },
+        { id: 1, link: '#about', name: "عني" },
+    ]
+}
