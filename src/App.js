@@ -15,6 +15,7 @@ import ParticleBackground from './components/intro/Particle';
 
 function App() {
   const [open, setOpen] = useState(false);
+  console.log("askljadfoksdj")
   return (
     <LanguageContext>
       <div className='app'>
